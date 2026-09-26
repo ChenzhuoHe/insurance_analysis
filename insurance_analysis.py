@@ -13,9 +13,6 @@ sns.set_theme(style="whitegrid", palette="deep")
 plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
 plt.rcParams['axes.unicode_minus'] = False
 
-import os
-print(os.getcwd())
-
 # ============================================================
 # Step 1: Load Data
 # ============================================================
