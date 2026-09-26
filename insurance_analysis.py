@@ -157,11 +157,6 @@ plt.savefig('06_correlation_heatmap.png', dpi=150, bbox_inches='tight')
 plt.close()
 print("  ✓ 06_correlation_heatmap.png")
 
-from IPython.display import Image, display
-
-for i in range(1, 7):
-    display(Image(f"0{i}_charges_distribution.png" if i==1 else f"0{i}_smoker_charges_boxplot.png" if i==2 else f"0{i}_age_charges_scatter.png" if i==3 else f"0{i}_region_charges_boxplot.png" if i==4 else f"0{i}_bmi_charges_scatter.png" if i==5 else f"0{i}_correlation_heatmap.png"))
-
 # ============================================================
 # Step 5: Linear Regression Modeling
 # ============================================================
